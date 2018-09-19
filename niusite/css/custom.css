@@ -12,3 +12,34 @@
 .map iframe {
   pointer-events: none;
 }
+
+/* Override background color */
+.bg-primary {
+  background-color: #d2406c !important;
+}
+
+/* Definições da fonte, (inclusive cor), na primeira página 
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff ;
+}
+*/
+
+/* Cor da fonte, com foco, na primeira página */
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #d2406c ;
+}
+
+
+/* Cor da fonte, item selecionado - atual na navegação */
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #d2406c !important;
+  background-color: transparent;
+}
+
+
