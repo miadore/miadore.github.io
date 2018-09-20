@@ -18,6 +18,11 @@
   background-color: #d2406c !important;
 }
 
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #d2406c ;
+}
+
+
 /* Definições da fonte, (inclusive cor), na primeira página 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -40,6 +45,13 @@
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #d2406c !important;
   background-color: transparent;
+}
+
+
+/* Cor da seleção no box de portfolio */
+.portfolio-box-caption:hover {
+  background: #d2406c !important;
+  opacity: 0.8 !important;
 }
 
 
