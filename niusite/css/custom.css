@@ -18,8 +18,11 @@
   background-color: #d2406c !important;
 }
 
+
+
+
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #d2406c ;
+  color: #d2406c;
 }
 
 
@@ -36,7 +39,7 @@
 /* Cor da fonte, com foco, na primeira página */
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #d2406c ;
+  color: #d2406c !important;
 }
 
 
@@ -52,6 +55,12 @@
 .portfolio-box-caption:hover {
   background: #d2406c !important;
   opacity: 0.8 !important;
+}
+
+
+/* Cor da seleção de textos padrão <a> */
+a:hover {
+  color: #d2406c;
 }
 
 
