@@ -19,8 +19,6 @@
 }
 
 
-
-
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #d2406c;
 }
@@ -37,6 +35,8 @@
 */
 
 /* Cor da fonte, com foco, na primeira página */
+/* Quando coloquei o !important, o comportamento foi replicado nas demais
+ * páginas */
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #d2406c !important;
@@ -64,3 +64,11 @@ a:hover {
 }
 
 
+.contact {
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/patterns/miadore_pat1.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/patterns/miadore_pat1.png");
+  /*background-position: center center;*/
+  background-repeat: repeat;
+  /*background-size: cover;*/
+}
