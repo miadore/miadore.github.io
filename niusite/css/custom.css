@@ -58,6 +58,13 @@
 }
 
 
+a {
+  color: #8d2b48;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
 /* Cor da seleção de textos padrão <a> */
 a:hover {
   color: #d2406c;
