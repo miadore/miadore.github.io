@@ -1,0 +1,70 @@
+/*.mi {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; }
+*/
+@font-face {
+  font-family: 'Miadore Icons';
+  font-style: normal;
+  font-weight: 900;
+  src: url("miadoreicons.svg");
+  src: url("miadoreicons.svg?#iefix") format("svg"), url("miadoreicons.ttf") format("truetype"); }
+
+.mi {
+  font-family: 'Miadore Icons'; }
+
+.m_divadivinha:before {
+  content: "\0061"; 
+  color: #87c4b2; }
+
+.m_festa:before {
+  content: "\0062";
+  color: #b883b9; }
+
+.m_esmalteria:before {
+  content: "\0063"; 
+  color: #ba7997; }
+
+.m_salaoinfantil:before {
+  content: "\0064";
+  color: #4a6478; }
+
+.m_modaconexao:before {
+  content: "\0065"; 
+  color: #ead191; }
+
+.m-1x {
+  font-size: 1em; }
+
+.m-2x {
+  font-size: 2em; }
+
+.m-3x {
+  font-size: 3em; }
+
+.m-4x {
+  font-size: 4em; }
+
+.m-5x {
+  font-size: 5em; }
+
+.m-6x {
+  font-size: 6em; }
+
+.m-7x {
+  font-size: 7em; }
+
+.m-8x {
+  font-size: 8em; }
+
+.m-9x {
+  font-size: 9em; }
+
+.m-10x {
+  font-size: 10em; }
+
+
