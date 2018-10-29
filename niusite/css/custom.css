@@ -70,6 +70,12 @@ a:hover {
   color: #d2406c;
 }
 
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #d2406c;
+}
+
 
 .contact {
   /*padding: 15rem 0;*/
