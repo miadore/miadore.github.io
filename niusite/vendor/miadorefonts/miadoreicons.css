@@ -1,4 +1,4 @@
-/*.mi {
+.mi {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -6,14 +6,20 @@
   font-variant: normal;
   text-rendering: auto;
   line-height: 1; }
-*/
+
 @font-face {
   font-family: 'Miadore Icons';
   font-style: normal;
-  font-weight: 900;
+  font-weight: normal;
   src: url("miadoreicons.svg");
-  src: url("miadoreicons.svg?#iefix") format("svg"), url("miadoreicons.ttf") format("truetype"); }
+  src: url("miadoreicons.svg?#iefix") format("svg"), url("miadoreicons.ttf") format("truetype");}
 
+  /*
+  src: url("miadoreicons.svg");
+  src: url("miadoreicons.svg?#iefix") format("svg"), url("miadoreicons.svg?#iefix") format("svg"), url("miadoreicons.ttf") format("truetype"), url ("miadoreicons.woff") format("woff"); }
+
+
+   * */
 .mi {
   font-family: 'Miadore Icons'; }
 
